@@ -1,0 +1,52 @@
+3 leis do TDD
+
+1 - Você não deve escrever NENHUMA linha de código sem que ANTES exista um teste que falha
+2 - Você não deve escrever MAIS DO QUE O NECESSÁRIO para evidenciar uma FALHA
+3 - Você não deve escrever mais código do que o suficiente para fazer o teste passar
+
+FIRST
+
+F Fast
+I Independent
+R Repeatable
+S Self-validation
+T Timely
+
+SOLID
+
+S Single Responsibility
+
+Separe partes do código que MUDAM POR MOTIVOS DIFERENTES
+
+O Open/Closed
+
+Você deve estar aberto para extensão e fechado para modificação
+
+L Liskov Substitution
+I Interface Segregation
+D Dependency Inversion
+
+High level modules MUST NOT DEPEND ON low level modules
+
+Tests
+
+Given/When/Then
+Arrange/Act/Assert
+
+Design Patterns
+
+Facade
+
+Abstrai um subsistema mais complexo oferencendo uma interface mais simples de interação
+
+Strategy
+
+Chavear o comportamento em tempo de execução
+
+Refactoring
+
+Introdução de objeto parâmetro (Dimension)
+
+Invariance
+
+Estado interno do objeto que deve ser consistente sempre
