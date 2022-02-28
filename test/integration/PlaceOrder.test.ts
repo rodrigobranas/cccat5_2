@@ -18,5 +18,5 @@ test("Deve fazer um pedido", function () {
 		coupon: "VALE20"
 	};
 	const output = placeOrder.execute(input);
-	expect(output.total).toBe(4872);
+	expect(output.total).toBe(5132);
 });
